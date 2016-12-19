@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore">
+  <TalendMetadata:DatabaseConnection xmi:id="_eRYkYMYBEeatSdPzaCVFVA" name="MySQL" id="_P-SSMMYBEeatSdPzaCVFVA" label="MySQL" dataPackage="_eXhooMYBEeatSdPzaCVFVA" DatabaseType="MySQL" DriverClass="org.gjt.mm.mysql.Driver" URL="jdbc:mysql://localhost:3306/training?noDatetimeStringSync=true" dbVersionString="MYSQL_5" Port="3306" Username="talend" Password="YdTnhbqBAdo=" ServerName="localhost" DatasourceName="" FileFieldName="" SID="training" SqlSynthax="SQL Syntax" DbmsId="mysql_id" ProductId="MYSQL" AdditionalParams="noDatetimeStringSync=true" StandardSQL="true" SQLMode="false" UiSchema="">
+    <taggedValue xmi:id="_eRZygMYBEeatSdPzaCVFVA" tag="Is Conn Need Reload" value="false"/>
+    <taggedValue xmi:id="_eR9zMMYBEeatSdPzaCVFVA" tag="package filter" value=""/>
+    <taggedValue xmi:id="_eSFvAMYBEeatSdPzaCVFVA" tag="Status" value=""/>
+    <taggedValue xmi:id="_eSFvAcYBEeatSdPzaCVFVA" tag="Version" value="0.1"/>
+    <taggedValue xmi:id="_eSFvAsYBEeatSdPzaCVFVA" tag="Purpose" value=""/>
+    <taggedValue xmi:id="_eSFvA8YBEeatSdPzaCVFVA" tag="Description" value=""/>
+    <taggedValue xmi:id="_eSFvBMYBEeatSdPzaCVFVA" tag="Author" value=""/>
+    <taggedValue xmi:id="_eSFvBcYBEeatSdPzaCVFVA" tag="otherParameter"/>
+    <taggedValue xmi:id="_eVF_sMYBEeatSdPzaCVFVA" tag="DB ProductName" value="MySQL"/>
+    <taggedValue xmi:id="_eVF_scYBEeatSdPzaCVFVA" tag="DB ProductVersion" value="5.6.28-log"/>
+    <taggedValue xmi:id="_eVF_ssYBEeatSdPzaCVFVA" tag="DB IdentifierQuoteString" value="`"/>
+    <parameters xmi:id="_eRZygcYBEeatSdPzaCVFVA" key="CONN_PARA_KEY_USERNAME" value="talend"/>
+  </TalendMetadata:DatabaseConnection>
+  <orgomg.cwm.resource.relational:Catalog xmi:id="_eXhooMYBEeatSdPzaCVFVA" name="training" dataManager="_eRYkYMYBEeatSdPzaCVFVA"/>
+</xmi:XMI>
