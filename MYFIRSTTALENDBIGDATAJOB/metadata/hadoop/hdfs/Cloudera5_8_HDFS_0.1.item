@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TalendHDFS:HDFSConnection xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendHDFS="http://www.talend.org/hdfs" xmi:id="_-LVN8MYAEeatSdPzaCVFVA" name="Cloudera5.8_HDFS" label="Cloudera5.8_HDFS" relativeHadoopClusterId="_3qMRoMX_EeatSdPzaCVFVA" userName="cloudera" rowSeparator="&quot;\n&quot;" fieldSeparator="&quot;;&quot;"/>
