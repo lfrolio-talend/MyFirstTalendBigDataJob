@@ -7,6 +7,41 @@
     <documentationStatus xmi:id="_Nm_VkMX_EeatSdPzaCVFVA" label="unchecked" code="UCK"/>
     <documentationStatus xmi:id="_Nm_VkcX_EeatSdPzaCVFVA" label="checked" code="CHK"/>
     <documentationStatus xmi:id="_Nm_VksX_EeatSdPzaCVFVA" label="validated" code="VAL"/>
+    <componentsSettings xmi:id="_Q9geEMYCEeatSdPzaCVFVA" name="DI|tSalesforceOutputBulk" family="Cloud/Salesforce"/>
+    <componentsSettings xmi:id="_Q9geEcYCEeatSdPzaCVFVA" name="DI|tSalesforceOutputBulkExec" family="Cloud/Salesforce"/>
+    <componentsSettings xmi:id="_Q9hFIMYCEeatSdPzaCVFVA" name="DI|tDBOutput" family="Databases/DB_Generic"/>
+    <componentsSettings xmi:id="_Q9hFIcYCEeatSdPzaCVFVA" name="DI|tSalesforceConnection" family="Cloud/Salesforce"/>
+    <componentsSettings xmi:id="_Q9hFIsYCEeatSdPzaCVFVA" name="DI|tSAPIDocInput" family="Business/SAP"/>
+    <componentsSettings xmi:id="_Q9hFI8YCEeatSdPzaCVFVA" name="DI|tHashOutput" family="Technical"/>
+    <componentsSettings xmi:id="_Q9hFJMYCEeatSdPzaCVFVA" name="DI|tSalesforceGetDeleted" family="Cloud/Salesforce"/>
+    <componentsSettings xmi:id="_Q9hFJcYCEeatSdPzaCVFVA" name="DI|tDatasetOutput" family="Talend Data Preparation"/>
+    <componentsSettings xmi:id="_Q9hFJsYCEeatSdPzaCVFVA" name="DI|tSplunkEventCollector" family="Business Intelligence/Splunk"/>
+    <componentsSettings xmi:id="_Q9hFJ8YCEeatSdPzaCVFVA" name="DI|tDBSQLRow" family="Databases/DB_Generic"/>
+    <componentsSettings xmi:id="_Q9hFKMYCEeatSdPzaCVFVA" name="DI|tSalesforceOutput" family="Business/Salesforce"/>
+    <componentsSettings xmi:id="_Q9hFKcYCEeatSdPzaCVFVA" name="DI|tDBInput" family="Databases/DB_Generic"/>
+    <componentsSettings xmi:id="_Q9hFKsYCEeatSdPzaCVFVA" name="DI|tSalesforceOutputBulkExec" family="Business/Salesforce"/>
+    <componentsSettings xmi:id="_Q9hsMMYCEeatSdPzaCVFVA" name="DI|tArrayIn" family="Technical"/>
+    <componentsSettings xmi:id="_Q9hsMcYCEeatSdPzaCVFVA" name="DI|tDatasetInput" family="Talend Data Preparation"/>
+    <componentsSettings xmi:id="_Q9hsMsYCEeatSdPzaCVFVA" name="DI|tSalesforceGetServerTimestamp" family="Business/Salesforce"/>
+    <componentsSettings xmi:id="_Q9hsM8YCEeatSdPzaCVFVA" name="DI|tSalesforceGetUpdated" family="Business/Salesforce"/>
+    <componentsSettings xmi:id="_Q9hsNMYCEeatSdPzaCVFVA" name="DI|tSalesforceGetServerTimestamp" family="Cloud/Salesforce"/>
+    <componentsSettings xmi:id="_Q9hsNcYCEeatSdPzaCVFVA" name="DI|tSalesforceBulkExec" family="Cloud/Salesforce"/>
+    <componentsSettings xmi:id="_Q9hsNsYCEeatSdPzaCVFVA" name="DI|tSalesforceGetDeleted" family="Business/Salesforce"/>
+    <componentsSettings xmi:id="_Q9i6UMYCEeatSdPzaCVFVA" name="DI|tArray" family="Technical"/>
+    <componentsSettings xmi:id="_Q9jhYMYCEeatSdPzaCVFVA" name="DI|tSalesforceOutputBulk" family="Business/Salesforce"/>
+    <componentsSettings xmi:id="_Q9kIcMYCEeatSdPzaCVFVA" name="DI|tJIRAOutput" family="Business/JIRA"/>
+    <componentsSettings xmi:id="_Q9kvgMYCEeatSdPzaCVFVA" name="DI|tSalesforceOutput" family="Cloud/Salesforce"/>
+    <componentsSettings xmi:id="_Q9lWkMYCEeatSdPzaCVFVA" name="DI|tJIRAInput" family="Business/JIRA"/>
+    <componentsSettings xmi:id="_Q9lWkcYCEeatSdPzaCVFVA" name="DI|tAccessOutputBulkExec" family="Databases/Access"/>
+    <componentsSettings xmi:id="_Q9lWksYCEeatSdPzaCVFVA" name="DI|tSalesforceBulkExec" family="Business/Salesforce"/>
+    <componentsSettings xmi:id="_Q9lWk8YCEeatSdPzaCVFVA" name="DI|tSalesforceInput" family="Business/Salesforce"/>
+    <componentsSettings xmi:id="_Q9lWlMYCEeatSdPzaCVFVA" name="DI|tHashInput" family="Technical"/>
+    <componentsSettings xmi:id="_Q9lWlcYCEeatSdPzaCVFVA" name="DI|tSalesforceInput" family="Cloud/Salesforce"/>
+    <componentsSettings xmi:id="_Q9lWlsYCEeatSdPzaCVFVA" name="DI|tSalesforceConnection" family="Business/Salesforce"/>
+    <componentsSettings xmi:id="_Q9l9oMYCEeatSdPzaCVFVA" name="DI|tAccessBulkExec" family="Databases/Access"/>
+    <componentsSettings xmi:id="_Q9l9ocYCEeatSdPzaCVFVA" name="DI|tSalesforceGetUpdated" family="Cloud/Salesforce"/>
+    <componentsSettings xmi:id="_RYzS8MYCEeatSdPzaCVFVA" name="SPARK|tAvroMap" family="Processing"/>
+    <componentsSettings xmi:id="_RpLRQMYCEeatSdPzaCVFVA" name="SPARKSTREAMING|tAvroMap" family="Processing"/>
     <ItemsRelations xmi:id="_xjypMMYBEeatSdPzaCVFVA">
       <baseItem xmi:id="_xjypMcYBEeatSdPzaCVFVA" id="_Nh0PwMYBEeatSdPzaCVFVA" version="0.1" type="job"/>
       <relatedItems xmi:id="_xjypMsYBEeatSdPzaCVFVA" id="_P-SSMMYBEeatSdPzaCVFVA" version="Latest" type="property"/>
