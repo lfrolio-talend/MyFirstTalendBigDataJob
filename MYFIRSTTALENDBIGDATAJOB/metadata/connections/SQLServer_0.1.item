@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TalendMetadata:DatabaseConnection xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmi:id="_Id7kcMbYEeaa1KDQ5Pp3EA" name="SQLServer" id="_s1CyUMbWEeaa1KDQ5Pp3EA" label="SQLServer" DatabaseType="Microsoft SQL Server" DriverClass="net.sourceforge.jtds.jdbc.Driver" URL="jdbc:jtds:sqlserver://192.168.1.191:1433/Customers;" Port="1433" Username="sa" Password="cC/UnoNf7+EyqJwAynV22w==" ServerName="192.168.1.191" DatasourceName="" FileFieldName="" SID="Customers" SqlSynthax="SQL Syntax" DbmsId="id_MSSQL" ProductId="SQL_SERVER" AdditionalParams="" StandardSQL="true" SQLMode="false" UiSchema="">
+  <taggedValue xmi:id="_Id7kccbYEeaa1KDQ5Pp3EA" tag="Is Conn Need Reload" value="false"/>
+  <taggedValue xmi:id="_IeXCQMbYEeaa1KDQ5Pp3EA" tag="package filter" value=""/>
+  <taggedValue xmi:id="_IeiBYMbYEeaa1KDQ5Pp3EA" tag="Status" value=""/>
+  <taggedValue xmi:id="_IeiocMbYEeaa1KDQ5Pp3EA" tag="Version" value="0.1"/>
+  <taggedValue xmi:id="_IeioccbYEeaa1KDQ5Pp3EA" tag="Purpose" value=""/>
+  <taggedValue xmi:id="_IeiocsbYEeaa1KDQ5Pp3EA" tag="Description" value=""/>
+  <taggedValue xmi:id="_Ieioc8bYEeaa1KDQ5Pp3EA" tag="Author" value=""/>
+  <taggedValue xmi:id="_IeiodMbYEeaa1KDQ5Pp3EA" tag="otherParameter"/>
+  <parameters xmi:id="_Id7kcsbYEeaa1KDQ5Pp3EA" key="CONN_PARA_KEY_USERNAME" value="sa"/>
+</TalendMetadata:DatabaseConnection>
