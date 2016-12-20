@@ -1,12 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TalendMetadata:DatabaseConnection xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmi:id="_Id7kcMbYEeaa1KDQ5Pp3EA" name="SQLServer" id="_s1CyUMbWEeaa1KDQ5Pp3EA" label="SQLServer" DatabaseType="Microsoft SQL Server" DriverClass="net.sourceforge.jtds.jdbc.Driver" URL="jdbc:jtds:sqlserver://192.168.1.191:1433/Customers;" Port="1433" Username="sa" Password="cC/UnoNf7+EyqJwAynV22w==" ServerName="192.168.1.191" DatasourceName="" FileFieldName="" SID="Customers" SqlSynthax="SQL Syntax" DbmsId="id_MSSQL" ProductId="SQL_SERVER" AdditionalParams="" StandardSQL="true" SQLMode="false" UiSchema="">
-  <taggedValue xmi:id="_Id7kccbYEeaa1KDQ5Pp3EA" tag="Is Conn Need Reload" value="false"/>
-  <taggedValue xmi:id="_IeXCQMbYEeaa1KDQ5Pp3EA" tag="package filter" value=""/>
-  <taggedValue xmi:id="_IeiBYMbYEeaa1KDQ5Pp3EA" tag="Status" value=""/>
-  <taggedValue xmi:id="_IeiocMbYEeaa1KDQ5Pp3EA" tag="Version" value="0.1"/>
-  <taggedValue xmi:id="_IeioccbYEeaa1KDQ5Pp3EA" tag="Purpose" value=""/>
-  <taggedValue xmi:id="_IeiocsbYEeaa1KDQ5Pp3EA" tag="Description" value=""/>
-  <taggedValue xmi:id="_Ieioc8bYEeaa1KDQ5Pp3EA" tag="Author" value=""/>
-  <taggedValue xmi:id="_IeiodMbYEeaa1KDQ5Pp3EA" tag="otherParameter"/>
-  <parameters xmi:id="_Id7kcsbYEeaa1KDQ5Pp3EA" key="CONN_PARA_KEY_USERNAME" value="sa"/>
-</TalendMetadata:DatabaseConnection>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore">
+  <TalendMetadata:DatabaseConnection xmi:id="_Id7kcMbYEeaa1KDQ5Pp3EA" name="SQLServer" id="_s1CyUMbWEeaa1KDQ5Pp3EA" label="SQLServer" dataPackage="_YqssAMbuEeapIv8Pe8LEpw" DatabaseType="Microsoft SQL Server" DriverClass="net.sourceforge.jtds.jdbc.Driver" URL="jdbc:jtds:sqlserver://192.168.1.191:1433/Customers;" Port="1433" Username="talend" Password="YdTnhbqBAdo=" ServerName="192.168.1.191" DatasourceName="" FileFieldName="" SID="Customers" SqlSynthax="SQL Syntax" DbmsId="id_MSSQL" ProductId="SQL_SERVER" AdditionalParams="" StandardSQL="true" SQLMode="false" UiSchema="dbo">
+    <taggedValue xmi:id="_Id7kccbYEeaa1KDQ5Pp3EA" tag="Is Conn Need Reload" value="true"/>
+    <taggedValue xmi:id="_IeXCQMbYEeaa1KDQ5Pp3EA" tag="package filter" value=""/>
+    <taggedValue xmi:id="_IeiBYMbYEeaa1KDQ5Pp3EA" tag="Status" value=""/>
+    <taggedValue xmi:id="_IeiocMbYEeaa1KDQ5Pp3EA" tag="Version" value="0.1"/>
+    <taggedValue xmi:id="_IeioccbYEeaa1KDQ5Pp3EA" tag="Purpose" value=""/>
+    <taggedValue xmi:id="_IeiocsbYEeaa1KDQ5Pp3EA" tag="Description" value=""/>
+    <taggedValue xmi:id="_Ieioc8bYEeaa1KDQ5Pp3EA" tag="Author" value=""/>
+    <taggedValue xmi:id="_IeiodMbYEeaa1KDQ5Pp3EA" tag="otherParameter"/>
+    <taggedValue xmi:id="_YmaB4MbuEeapIv8Pe8LEpw" tag="DB ProductName" value="Microsoft SQL Server"/>
+    <taggedValue xmi:id="_Ymao8MbuEeapIv8Pe8LEpw" tag="DB ProductVersion" value="11.00.3156"/>
+    <taggedValue xmi:id="_Ymao8cbuEeapIv8Pe8LEpw" tag="DB IdentifierQuoteString" value="&quot;"/>
+    <parameters xmi:id="_Id7kcsbYEeaa1KDQ5Pp3EA" key="CONN_PARA_KEY_USERNAME" value="talend"/>
+  </TalendMetadata:DatabaseConnection>
+  <orgomg.cwm.resource.relational:Catalog xmi:id="_YqssAMbuEeapIv8Pe8LEpw" name="Customers" dataManager="_Id7kcMbYEeaa1KDQ5Pp3EA">
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_YqssAcbuEeapIv8Pe8LEpw" name="dbo"/>
+  </orgomg.cwm.resource.relational:Catalog>
+</xmi:XMI>
