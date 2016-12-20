@@ -90,6 +90,19 @@
       <relatedItems xmi:id="_xjypPMYBEeatSdPzaCVFVA" id="_P-SSMMYBEeatSdPzaCVFVA - customersfull" version="Latest" type="schema"/>
       <relatedItems xmi:id="_At4GYMYFEea2eNJFcojDGA" id="_-JL44MYAEeatSdPzaCVFVA" version="Latest" type="property"/>
     </ItemsRelations>
+    <ItemsRelations xmi:id="_zE6hAMbuEeapIv8Pe8LEpw">
+      <baseItem xmi:id="_zE6hAcbuEeapIv8Pe8LEpw" id="_gAemwMbuEeapIv8Pe8LEpw" version="0.1" type="job"/>
+      <relatedItems xmi:id="_zE6hAsbuEeapIv8Pe8LEpw" id="_s1CyUMbWEeaa1KDQ5Pp3EA" version="Latest" type="property"/>
+      <relatedItems xmi:id="_zE6hA8buEeapIv8Pe8LEpw" id="SQLike" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_zE6hBMbuEeapIv8Pe8LEpw" id="Numeric" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_zE6hBcbuEeapIv8Pe8LEpw" id="Relational" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_zE6hBsbuEeapIv8Pe8LEpw" id="TalendString" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_zE6hB8buEeapIv8Pe8LEpw" id="DataOperation" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_zE6hCMbuEeapIv8Pe8LEpw" id="StringHandling" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_zE6hCcbuEeapIv8Pe8LEpw" id="TalendDataGenerator" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_zE6hCsbuEeapIv8Pe8LEpw" id="TalendDate" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_zE6hC8buEeapIv8Pe8LEpw" id="Mathematical" version="Latest" type="routine"/>
+    </ItemsRelations>
     <migrationTask xmi:id="_Nme_QMX_EeatSdPzaCVFVA" id="org.talend.repository.localprovider.RemoveRoutineFolderTask" breaks="5.1.1" version="5.1.2" status="noimpact"/>
     <migrationTask xmi:id="_Nme_QcX_EeatSdPzaCVFVA" id="org.talend.repository.localprovider.model.migration.ChangeXmiSerialization" breaks="5.1.1" version="5.1.2" status="noimpact"/>
     <migrationTask xmi:id="_Nme_QsX_EeatSdPzaCVFVA" id="org.talend.repository.model.migration.CleanFoldersMigrationTask" breaks="5.1.1" version="5.1.2" status="ok"/>
