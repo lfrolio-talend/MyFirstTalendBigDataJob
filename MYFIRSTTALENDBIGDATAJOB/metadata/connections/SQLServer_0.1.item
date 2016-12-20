@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore">
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore" xmlns:relational="http://www.talend.org/cwm/resource/relational/2010">
   <TalendMetadata:DatabaseConnection xmi:id="_Id7kcMbYEeaa1KDQ5Pp3EA" name="SQLServer" id="_s1CyUMbWEeaa1KDQ5Pp3EA" label="SQLServer" dataPackage="_YqssAMbuEeapIv8Pe8LEpw" DatabaseType="Microsoft SQL Server" DriverClass="net.sourceforge.jtds.jdbc.Driver" URL="jdbc:jtds:sqlserver://192.168.1.191:1433/Customers;" Port="1433" Username="talend" Password="YdTnhbqBAdo=" ServerName="192.168.1.191" DatasourceName="" FileFieldName="" SID="Customers" SqlSynthax="SQL Syntax" DbmsId="id_MSSQL" ProductId="SQL_SERVER" AdditionalParams="" StandardSQL="true" SQLMode="false" UiSchema="dbo">
     <taggedValue xmi:id="_Id7kccbYEeaa1KDQ5Pp3EA" tag="Is Conn Need Reload" value="true"/>
     <taggedValue xmi:id="_IeXCQMbYEeaa1KDQ5Pp3EA" tag="package filter" value=""/>
@@ -15,6 +15,20 @@
     <parameters xmi:id="_Id7kcsbYEeaa1KDQ5Pp3EA" key="CONN_PARA_KEY_USERNAME" value="talend"/>
   </TalendMetadata:DatabaseConnection>
   <orgomg.cwm.resource.relational:Catalog xmi:id="_YqssAMbuEeapIv8Pe8LEpw" name="Customers" dataManager="_Id7kcMbYEeaa1KDQ5Pp3EA">
-    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_YqssAcbuEeapIv8Pe8LEpw" name="dbo"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_YqssAcbuEeapIv8Pe8LEpw" name="dbo">
+      <ownedElement xsi:type="relational:TdTable" xmi:id="_btcO0MbvEeapIv8Pe8LEpw" name="CustomerData" id="_btXWUMbvEeapIv8Pe8LEpw" label="CustomerData" tableType="TABLE">
+        <taggedValue xmi:id="_btcO0cbvEeapIv8Pe8LEpw" tag="Comment" value=""/>
+        <feature xsi:type="relational:TdColumn" xmi:id="_btcO0sbvEeapIv8Pe8LEpw" name="CustID" label="CustID" length="10" sourceType="INT" talendType="id_Integer" key="true" nullable="false">
+          <taggedValue xmi:id="_btcO08bvEeapIv8Pe8LEpw" tag="Comment" value=""/>
+          <initialValue xsi:type="relational:TdExpression" xmi:id="_btcO1MbvEeapIv8Pe8LEpw" language="COLUMN_DEF"/>
+          <sqlDataType xmi:id="_btcO1cbvEeapIv8Pe8LEpw" name="INT" numericPrecisionRadix="10" javaDataType="4"/>
+        </feature>
+        <feature xsi:type="relational:TdColumn" xmi:id="_btcO1sbvEeapIv8Pe8LEpw" name="CustName" label="CustName" length="50" sourceType="VARCHAR" talendType="id_String">
+          <taggedValue xmi:id="_btcO18bvEeapIv8Pe8LEpw" tag="Comment" value=""/>
+          <initialValue xsi:type="relational:TdExpression" xmi:id="_btcO2MbvEeapIv8Pe8LEpw" language="COLUMN_DEF"/>
+          <sqlDataType xmi:id="_btcO2cbvEeapIv8Pe8LEpw" name="NVARCHAR" javaDataType="12" nullable="columnNullable"/>
+        </feature>
+      </ownedElement>
+    </ownedElement>
   </orgomg.cwm.resource.relational:Catalog>
 </xmi:XMI>
