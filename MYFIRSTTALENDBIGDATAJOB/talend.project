@@ -103,6 +103,7 @@
       <relatedItems xmi:id="_zE6hCsbuEeapIv8Pe8LEpw" id="TalendDate" version="Latest" type="routine"/>
       <relatedItems xmi:id="_zE6hC8buEeapIv8Pe8LEpw" id="Mathematical" version="Latest" type="routine"/>
       <relatedItems xmi:id="_mka_cMbvEeapIv8Pe8LEpw" id="_s1CyUMbWEeaa1KDQ5Pp3EA - CustomerData" version="Latest" type="schema"/>
+      <relatedItems xmi:id="_3-XJ8MbzEeapIv8Pe8LEpw" id="_xrnZgMbzEeapIv8Pe8LEpw" version="Latest" type="joblet"/>
     </ItemsRelations>
     <ItemsRelations xmi:id="_D11EAMbwEeapIv8Pe8LEpw">
       <baseItem xmi:id="_D11EAcbwEeapIv8Pe8LEpw" id="_6JhWwMbvEeapIv8Pe8LEpw" version="0.1" type="job"/>
